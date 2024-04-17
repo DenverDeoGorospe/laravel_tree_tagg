@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('contact_number')->unique();
             $table->string('password');
-            $table->string('branch');
+            $table->string('branches');
             $table->string('account_type');
             $table->rememberToken();
             $table->timestamps();
